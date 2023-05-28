@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		73197BD42A23C9130042AD89 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73197BD32A23C9130042AD89 /* AppDelegate.swift */; };
+		73197BD62A23C9130042AD89 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73197BD52A23C9130042AD89 /* SceneDelegate.swift */; };
+		73197BD82A23C9130042AD89 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73197BD72A23C9130042AD89 /* ViewController.swift */; };
+		73197BDB2A23C9130042AD89 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73197BD92A23C9130042AD89 /* Main.storyboard */; };
+		73197BDD2A23C9140042AD89 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 73197BDC2A23C9140042AD89 /* Assets.xcassets */; };
+		73197BE02A23C9140042AD89 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73197BDE2A23C9140042AD89 /* LaunchScreen.storyboard */; };
+		73197BEB2A23C9140042AD89 /* Yolov8_RealTime_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73197BEA2A23C9140042AD89 /* Yolov8_RealTime_iOSTests.swift */; };
+		73197BF52A23C9140042AD89 /* Yolov8_RealTime_iOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73197BF42A23C9140042AD89 /* Yolov8_RealTime_iOSUITests.swift */; };
+		73197BF72A23C9140042AD89 /* Yolov8_RealTime_iOSUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73197BF62A23C9140042AD89 /* Yolov8_RealTime_iOSUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		73197BE72A23C9140042AD89 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 73197BC82A23C9130042AD89 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 73197BCF2A23C9130042AD89;
+			remoteInfo = "Yolov8-RealTime-iOS";
+		};
+		73197BF12A23C9140042AD89 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 73197BC82A23C9130042AD89 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 73197BCF2A23C9130042AD89;
+			remoteInfo = "Yolov8-RealTime-iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		73197BD02A23C9130042AD89 /* Yolov8-RealTime-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Yolov8-RealTime-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		73197BD32A23C9130042AD89 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		73197BD52A23C9130042AD89 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		73197BD72A23C9130042AD89 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		73197BDA2A23C9130042AD89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		73197BDC2A23C9140042AD89 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		73197BDF2A23C9140042AD89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		73197BE12A23C9140042AD89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		73197BE62A23C9140042AD89 /* Yolov8-RealTime-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Yolov8-RealTime-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		73197BEA2A23C9140042AD89 /* Yolov8_RealTime_iOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Yolov8_RealTime_iOSTests.swift; sourceTree = "<group>"; };
+		73197BF02A23C9140042AD89 /* Yolov8-RealTime-iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Yolov8-RealTime-iOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		73197BF42A23C9140042AD89 /* Yolov8_RealTime_iOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Yolov8_RealTime_iOSUITests.swift; sourceTree = "<group>"; };
+		73197BF62A23C9140042AD89 /* Yolov8_RealTime_iOSUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Yolov8_RealTime_iOSUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		73197BCD2A23C9130042AD89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73197BE32A23C9140042AD89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73197BED2A23C9140042AD89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		73197BC72A23C9130042AD89 = {
+			isa = PBXGroup;
+			children = (
+				73197BD22A23C9130042AD89 /* Yolov8-RealTime-iOS */,
+				73197BE92A23C9140042AD89 /* Yolov8-RealTime-iOSTests */,
+				73197BF32A23C9140042AD89 /* Yolov8-RealTime-iOSUITests */,
+				73197BD12A23C9130042AD89 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		73197BD12A23C9130042AD89 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				73197BD02A23C9130042AD89 /* Yolov8-RealTime-iOS.app */,
+				73197BE62A23C9140042AD89 /* Yolov8-RealTime-iOSTests.xctest */,
+				73197BF02A23C9140042AD89 /* Yolov8-RealTime-iOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		73197BD22A23C9130042AD89 /* Yolov8-RealTime-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73197BD32A23C9130042AD89 /* AppDelegate.swift */,
+				73197BD52A23C9130042AD89 /* SceneDelegate.swift */,
+				73197BD72A23C9130042AD89 /* ViewController.swift */,
+				73197BD92A23C9130042AD89 /* Main.storyboard */,
+				73197BDC2A23C9140042AD89 /* Assets.xcassets */,
+				73197BDE2A23C9140042AD89 /* LaunchScreen.storyboard */,
+				73197BE12A23C9140042AD89 /* Info.plist */,
+			);
+			path = "Yolov8-RealTime-iOS";
+			sourceTree = "<group>";
+		};
+		73197BE92A23C9140042AD89 /* Yolov8-RealTime-iOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				73197BEA2A23C9140042AD89 /* Yolov8_RealTime_iOSTests.swift */,
+			);
+			path = "Yolov8-RealTime-iOSTests";
+			sourceTree = "<group>";
+		};
+		73197BF32A23C9140042AD89 /* Yolov8-RealTime-iOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				73197BF42A23C9140042AD89 /* Yolov8_RealTime_iOSUITests.swift */,
+				73197BF62A23C9140042AD89 /* Yolov8_RealTime_iOSUITestsLaunchTests.swift */,
+			);
+			path = "Yolov8-RealTime-iOSUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		73197BCF2A23C9130042AD89 /* Yolov8-RealTime-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 73197BFA2A23C9140042AD89 /* Build configuration list for PBXNativeTarget "Yolov8-RealTime-iOS" */;
+			buildPhases = (
+				73197BCC2A23C9130042AD89 /* Sources */,
+				73197BCD2A23C9130042AD89 /* Frameworks */,
+				73197BCE2A23C9130042AD89 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Yolov8-RealTime-iOS";
+			productName = "Yolov8-RealTime-iOS";
+			productReference = 73197BD02A23C9130042AD89 /* Yolov8-RealTime-iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		73197BE52A23C9140042AD89 /* Yolov8-RealTime-iOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 73197BFD2A23C9140042AD89 /* Build configuration list for PBXNativeTarget "Yolov8-RealTime-iOSTests" */;
+			buildPhases = (
+				73197BE22A23C9140042AD89 /* Sources */,
+				73197BE32A23C9140042AD89 /* Frameworks */,
+				73197BE42A23C9140042AD89 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				73197BE82A23C9140042AD89 /* PBXTargetDependency */,
+			);
+			name = "Yolov8-RealTime-iOSTests";
+			productName = "Yolov8-RealTime-iOSTests";
+			productReference = 73197BE62A23C9140042AD89 /* Yolov8-RealTime-iOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		73197BEF2A23C9140042AD89 /* Yolov8-RealTime-iOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 73197C002A23C9140042AD89 /* Build configuration list for PBXNativeTarget "Yolov8-RealTime-iOSUITests" */;
+			buildPhases = (
+				73197BEC2A23C9140042AD89 /* Sources */,
+				73197BED2A23C9140042AD89 /* Frameworks */,
+				73197BEE2A23C9140042AD89 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				73197BF22A23C9140042AD89 /* PBXTargetDependency */,
+			);
+			name = "Yolov8-RealTime-iOSUITests";
+			productName = "Yolov8-RealTime-iOSUITests";
+			productReference = 73197BF02A23C9140042AD89 /* Yolov8-RealTime-iOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		73197BC82A23C9130042AD89 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					73197BCF2A23C9130042AD89 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					73197BE52A23C9140042AD89 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 73197BCF2A23C9130042AD89;
+					};
+					73197BEF2A23C9140042AD89 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 73197BCF2A23C9130042AD89;
+					};
+				};
+			};
+			buildConfigurationList = 73197BCB2A23C9130042AD89 /* Build configuration list for PBXProject "Yolov8-RealTime-iOS" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 73197BC72A23C9130042AD89;
+			productRefGroup = 73197BD12A23C9130042AD89 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				73197BCF2A23C9130042AD89 /* Yolov8-RealTime-iOS */,
+				73197BE52A23C9140042AD89 /* Yolov8-RealTime-iOSTests */,
+				73197BEF2A23C9140042AD89 /* Yolov8-RealTime-iOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		73197BCE2A23C9130042AD89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73197BE02A23C9140042AD89 /* LaunchScreen.storyboard in Resources */,
+				73197BDD2A23C9140042AD89 /* Assets.xcassets in Resources */,
+				73197BDB2A23C9130042AD89 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73197BE42A23C9140042AD89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73197BEE2A23C9140042AD89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		73197BCC2A23C9130042AD89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73197BD82A23C9130042AD89 /* ViewController.swift in Sources */,
+				73197BD42A23C9130042AD89 /* AppDelegate.swift in Sources */,
+				73197BD62A23C9130042AD89 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73197BE22A23C9140042AD89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73197BEB2A23C9140042AD89 /* Yolov8_RealTime_iOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73197BEC2A23C9140042AD89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73197BF72A23C9140042AD89 /* Yolov8_RealTime_iOSUITestsLaunchTests.swift in Sources */,
+				73197BF52A23C9140042AD89 /* Yolov8_RealTime_iOSUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		73197BE82A23C9140042AD89 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 73197BCF2A23C9130042AD89 /* Yolov8-RealTime-iOS */;
+			targetProxy = 73197BE72A23C9140042AD89 /* PBXContainerItemProxy */;
+		};
+		73197BF22A23C9140042AD89 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 73197BCF2A23C9130042AD89 /* Yolov8-RealTime-iOS */;
+			targetProxy = 73197BF12A23C9140042AD89 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		73197BD92A23C9130042AD89 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				73197BDA2A23C9130042AD89 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		73197BDE2A23C9140042AD89 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				73197BDF2A23C9140042AD89 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		73197BF82A23C9140042AD89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		73197BF92A23C9140042AD89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		73197BFB2A23C9140042AD89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MFN25KNUGJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Yolov8-RealTime-iOS/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "daisuke.Yolov8-RealTime-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		73197BFC2A23C9140042AD89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MFN25KNUGJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Yolov8-RealTime-iOS/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "daisuke.Yolov8-RealTime-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		73197BFE2A23C9140042AD89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MFN25KNUGJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "daisuke.Yolov8-RealTime-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Yolov8-RealTime-iOS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Yolov8-RealTime-iOS";
+			};
+			name = Debug;
+		};
+		73197BFF2A23C9140042AD89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MFN25KNUGJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "daisuke.Yolov8-RealTime-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Yolov8-RealTime-iOS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Yolov8-RealTime-iOS";
+			};
+			name = Release;
+		};
+		73197C012A23C9140042AD89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MFN25KNUGJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "daisuke.Yolov8-RealTime-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Yolov8-RealTime-iOS";
+			};
+			name = Debug;
+		};
+		73197C022A23C9140042AD89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MFN25KNUGJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "daisuke.Yolov8-RealTime-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Yolov8-RealTime-iOS";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		73197BCB2A23C9130042AD89 /* Build configuration list for PBXProject "Yolov8-RealTime-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73197BF82A23C9140042AD89 /* Debug */,
+				73197BF92A23C9140042AD89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		73197BFA2A23C9140042AD89 /* Build configuration list for PBXNativeTarget "Yolov8-RealTime-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73197BFB2A23C9140042AD89 /* Debug */,
+				73197BFC2A23C9140042AD89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		73197BFD2A23C9140042AD89 /* Build configuration list for PBXNativeTarget "Yolov8-RealTime-iOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73197BFE2A23C9140042AD89 /* Debug */,
+				73197BFF2A23C9140042AD89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		73197C002A23C9140042AD89 /* Build configuration list for PBXNativeTarget "Yolov8-RealTime-iOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73197C012A23C9140042AD89 /* Debug */,
+				73197C022A23C9140042AD89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 73197BC82A23C9130042AD89 /* Project object */;
+}
