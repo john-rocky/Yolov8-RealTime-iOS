@@ -16,6 +16,7 @@
 		73197BEB2A23C9140042AD89 /* Yolov8_RealTime_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73197BEA2A23C9140042AD89 /* Yolov8_RealTime_iOSTests.swift */; };
 		73197BF52A23C9140042AD89 /* Yolov8_RealTime_iOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73197BF42A23C9140042AD89 /* Yolov8_RealTime_iOSUITests.swift */; };
 		73197BF72A23C9140042AD89 /* Yolov8_RealTime_iOSUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73197BF62A23C9140042AD89 /* Yolov8_RealTime_iOSUITestsLaunchTests.swift */; };
+		73197C042A23D2640042AD89 /* yolov8s.mlpackage in Sources */ = {isa = PBXBuildFile; fileRef = 73197C032A23D2640042AD89 /* yolov8s.mlpackage */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		73197BF02A23C9140042AD89 /* Yolov8-RealTime-iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Yolov8-RealTime-iOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		73197BF42A23C9140042AD89 /* Yolov8_RealTime_iOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Yolov8_RealTime_iOSUITests.swift; sourceTree = "<group>"; };
 		73197BF62A23C9140042AD89 /* Yolov8_RealTime_iOSUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Yolov8_RealTime_iOSUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		73197C032A23D2640042AD89 /* yolov8s.mlpackage */ = {isa = PBXFileReference; lastKnownFileType = folder.mlpackage; path = yolov8s.mlpackage; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				73197BD32A23C9130042AD89 /* AppDelegate.swift */,
 				73197BD52A23C9130042AD89 /* SceneDelegate.swift */,
 				73197BD72A23C9130042AD89 /* ViewController.swift */,
+				73197C032A23D2640042AD89 /* yolov8s.mlpackage */,
 				73197BD92A23C9130042AD89 /* Main.storyboard */,
 				73197BDC2A23C9140042AD89 /* Assets.xcassets */,
 				73197BDE2A23C9140042AD89 /* LaunchScreen.storyboard */,
@@ -258,6 +261,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				73197C042A23D2640042AD89 /* yolov8s.mlpackage in Sources */,
 				73197BD82A23C9130042AD89 /* ViewController.swift in Sources */,
 				73197BD42A23C9130042AD89 /* AppDelegate.swift in Sources */,
 				73197BD62A23C9130042AD89 /* SceneDelegate.swift in Sources */,
